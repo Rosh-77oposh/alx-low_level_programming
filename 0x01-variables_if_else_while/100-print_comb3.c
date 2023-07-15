@@ -20,7 +20,12 @@ int nain(void)
 							putchar(' ');
 						
 						}
-		}
-}
+							
 
+
+					{		
+
+
+				putchar('\n');
+				return (0);
 
