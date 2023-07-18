@@ -26,6 +26,6 @@ int main (void)
 		}
 	}
 	sum = sum3 + sum3;
-	printf("%dlv\n", sum);
+	printf("\n");
 	return (0);
 }
