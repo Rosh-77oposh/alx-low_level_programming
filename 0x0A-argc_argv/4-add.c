@@ -1,33 +1,34 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-#include <string.h>
-/**
- * check_num - check - string there digit
- * @str: array string
- * Return: Always 0 (Success)
- */
-int check_num(char *str)
-{
-	/*declaring variables*/
-	unsigned int count;
 
-	count = 0;
-	while (count < strlen(str)) /*count string*/
+int main(int argc, char *argv[])
+{
+	if (argc == 1)
 
 	{
-		if (!isdigit(str[count])) /*check if str there are digit*/
-		{
-			return (0);
-		}
-
-		count++;
+		printf("0\n");
+		return (0);
 	}
-	return (1);
+
+	int sum = 0;
+	for (int = 1; i < argc; i++)
+	{
+		for (int j = 0; argv[i][j] != '\0'; j++)
+	}
+
+	{
+		if (!isdigit(argv[i][j]))
+		{
+			printf("Error\n");
+
+		return (0);
+		}
+	}
+	sum += atoi(argv[i]);
 }
 
-/**
- * main - print the name of the program
- * @argc: count arguments
- * @argv: array arguments
- * Return: Always 0 (Success)
+printf("%d\n", sum);
+
+return (0);
+
